@@ -1,0 +1,62 @@
+:root {
+    /*main BG*/
+    --very-dark-blue: hsl(217, 54%, 11%);
+    /* car BG*/
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    /*primary*/
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+* {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--very-dark-blue);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--very-dark-blue-card);
+    border-radius: 0.625rem;
+}
+
+img {
+    max-width: 18.75rem;
+    border-radius: 0.625rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+h2 {
+    font-size: 1.125rem;
+    color: var(--soft-blue);
+    max-width: 50%;
+    font-weight: 400;
+}
+
+.nft-details {
+
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: var(--soft-blue);
+
+}
