@@ -30,7 +30,6 @@ main {
     flex-direction: column;
     background-color: var(--very-dark-blue-card);
     border-radius: 0.625rem;
-    /* max-width: 18.75rem; */
 }
 
 .equilibrium {
@@ -54,11 +53,12 @@ h2 {
     font-size: 1.125rem;
     color: var(--soft-blue);
     font-weight: 300;
-    margin: 0.625rem 0;
+    margin: 1.25rem 0;
 }
 
 .nft-details {
     display: flex;
+    justify-content: space-between;
 }
 
 p {
@@ -68,22 +68,42 @@ p {
 
 }
 
-.time-left {
-
+.eth-details, .time {
+    display: flex;
+    align-items: center;
 }
 
-.eth-img {
-    margin: 1px;
+.eth-img, .clock-img {
+    margin-right: 0.313rem;
+}
+
+.eth {
+    font-weight: 400;
+    color: var(--cyan);
+}
+
+hr {
+    border: 0.063rem solid var(--very-dark-blue-line);
+    margin: 1.25rem 0;
 }
 
 .credentials-container {
     display: flex;
     align-items: center;
+    margin: 0.938rem 0;
 }
 
 .avatar-img {
     width: 2.1875rem;
-    border: 2px solid var(--white);
+    border: 0.063rem solid var(--white);
     border-radius: 50%;
     margin: 0;
+}
+
+.credentials {
+    margin: 0 0.9375rem;
+}
+
+.author-name {
+    color: var(--white);
 }
